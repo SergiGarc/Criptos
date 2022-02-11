@@ -18,17 +18,88 @@ caption {
 	font-weight: bold;
 }
 
-table {
+.first {
+	table-layout: fixed;
+	margin-left: auto;
+	margin-right: auto;
 	width: 500px;
+}
+
+caption {
 	text-align: center;
-	left: 550px;
-	position:relative;
+	background-color: yellow;
+	color: #1f31be;
+	font-weight: bold;
+}
+
+caption.dos {
+	text-align: center;
+	background-color: yellow;
+	color: #1f31be;
+	font-weight: bold;
+	caption-side: bottom;
+}
+
+td {
+	text-align: center;
+}
+
+.medio {
+	height: 30px;
+	border: 2px solid black;
+}
+
+.second {
+	table-layout: fixed;
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+	border-collapse: collapse;
+	margin-bottom: 40px;
+}
+
+.bott {
+	border-bottom: 5px red dotted;
+}
+
+.left {
+	text-align: center;
+	border-left: 5px red dotted;
+}
+
+.right {
+	text-align: center;
+	border-right: 5px red dotted;
+}
+
+.bott-left {
+	text-align: center;
+	border-left: 5px red dotted;
+	border-bottom: 5px red dotted;
+}
+
+.bott-righ {
+	text-align: center;
+	border-right: 5px red dotted;
+	border-bottom: 5px red dotted;
 }
 
 .cero {
 	border: none;
 }
 
-.medio {
-	height: 30px;
+.foot {
+	margin-top: 0px;
+	height: 20px;
+	border: 4px solid red;
+	text-align: center;
+	color: blue;
+	background-color: yellow;
+	padding: 20px;
+	font-weight: bold;
+}
+
+.pie {
+	text-align: center;
+	width: 40%;
 }
